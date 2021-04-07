@@ -10,6 +10,8 @@ have taken into the moodle sidebar for easy navigation.
 
 ### Features
 
+* Along with side bar, now the main bar also works as intended, and shows the current courses the student is taking.
+* Works regardless of which year you are in. or the number of cousrses you have taken.
 * The plugin will only fill the courses the student is taking in the current sem.
   The first time the plugin is launched, it will take some time to find and 
   store the set of courses the student is taking and will reload 

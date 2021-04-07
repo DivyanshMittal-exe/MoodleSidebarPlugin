@@ -1,7 +1,7 @@
 {
-	"name": "Moodle Sidebar Plugin",
-	"version": "1.0",
-	"description": "Changes Moodle Sidebar Content",
+	"name": "Moodle MainBar and Sidebar Plugin",
+	"version": "1.1",
+	"description": "Changes Moodle Mainbar and Sidebar Content",
 	"content_scripts": [ {
 		"matches": [
 			"https://moodle.iitd.ac.in/my/", 
@@ -11,7 +11,7 @@
 			"https://moodle.iitd.ac.in/user/*"
 		],
 		"run_at": "document_idle",
-		"js": ["plugin.js"]
+		"js": ["plugin.js","remover.js"]
 	} ],
 	"icons": {
 		"36": "icons/icon36.png",
