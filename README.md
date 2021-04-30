@@ -1,4 +1,4 @@
-# Moodle Sidebar Plugin
+# Moodle Sidebar and Mainbar Plugin
 
 Reduces the clicks required to access a particular course (and frustration 
 as well :)
@@ -7,6 +7,8 @@ as well :)
 
 This is a small utility plugin that puts the links of the other courses you 
 have taken into the moodle sidebar for easy navigation.
+
+Along with this, it also inverts the mainbar , so that your ongoing current courses appear first.
 
 ### Features
 
@@ -28,8 +30,6 @@ have taken into the moodle sidebar for easy navigation.
 ### Contributing
 
 * Clone and send pull requests if you have any features to add or bugs to fix!
-* Having a fork is also cool! one nice fork  
-  [can be found here](https://github.com/fricai/MoodleSidebarPlugin)
 
 ### Installation
 
